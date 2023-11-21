@@ -1,0 +1,4 @@
+*.json
+src/
+node_modules/
+.gitignore
