@@ -3,11 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebPack App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../images/favicon-tech.png" type="image/x-icon">
+    <title>Tech News app</title>
 </head>
 <body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="../images/logo-tech.png" alt="Logo Tech News" width="150"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#load-more">Load more</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- HEADER -->
+  <!-- MAIN -->
+  <main>
+    <!-- BANNER -->
+    <div class="banner-container">
+      <h1 class="mt-3">Breaking News</h1>
+    </div>
+    <!-- BANNER -->
+    <!-- CARDS -->
+    <div id="news" class="card-container p-3 d-flex flex-wrap justify-content-center">
+
+    </div>
+    <!-- CARDS -->
+  </main>
+  <!-- MAIN -->
+  <!-- FOOTER -->
+  <footer class="bg-dark text-light pt-5 pb-3 mt-5" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Contact Information</h5>
+                <p>Email: example@example.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="col-md-6 text-right">
+                <h5>Follow Us</h5>
+                <a href="#" class="text-light">Facebook</a> |
+                <a href="#" class="text-light">Twitter</a> |
+                <a href="#" class="text-light">Instagram</a>
+            </div>
+        </div>
+        <hr class="bg-light">
+        <p class="text-center mb-0">&copy; 2023 Web Development by Filippo Alotta</p>
+    </div>
+</footer>
+  <!-- FOOTER -->
     
-    <h1>WebPack App</h1>
-    <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
 </body>
 </html>
